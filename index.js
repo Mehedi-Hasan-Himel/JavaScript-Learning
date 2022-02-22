@@ -196,3 +196,31 @@ console.log(x <= 10);
 */
 
 // Comparison Operator End
+
+// Logical Operator Start
+
+// && and (x < 10 && y > 1) is true
+/* 
+let x = 5;
+let y = 10;
+console.log(x < 10 && y > 12); //false
+*/
+
+/*
+let x = 5;
+let y = 10;
+console.log( x < 10 && y > 5 ); //true
+*/
+
+// || and (x == 10 || y == 1) is false
+/*  
+let x = 5;
+let y = 10;
+console.log(x < 10 || y > 12); //true
+*/
+
+// Logical Operator End
+
+// Conditional Ternary operator
+// syntax variableName = (condition) ? true : false
+// Example: let voteAble = (Age < 18) ? "Too Young" : "Old Enough"
