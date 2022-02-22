@@ -226,6 +226,7 @@ console.log(x < 10 || y > 12); //true
 // Example: let voteAble = (Age < 18) ? "Too Young" : "Old Enough"
 
 // Conditional Statement Start
+// if, else if, else start
 /*
 let time = 4;
 if (time >= 5 && time < 12) {
@@ -253,5 +254,27 @@ if (mark >= 80) {
 } else {
    console.log(`Fail`);
 }
-*/
+// if, else if, else end
+
+// Switch Statement Start
+let color = `blue`;
+switch (color) {
+  case `red`:
+    color = `Color is red.`;
+    break;
+  case `blue`:
+    color = `Color is blue.`;
+    break;
+  case `yellow`:
+    color = `Color is yellow.`;
+    break;
+  default:
+    color = `nothing.`;
+    break;
+}
+console.log(color);
+// Switch Statement End
+
 // Conditional Statement End
+
+*/
