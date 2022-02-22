@@ -286,4 +286,78 @@ for (let i = 1; i <= 50; i++) {
   }
 }
 // for loop End
+
+// While loop Start
+let i = 50;
+while (i >= 1) {
+  if (i % 2 == 0) {
+    console.log(i + ` Even Number`);
+  } else {
+    console.log(i + ` Odd Number`);
+  }
+  i--;
+}
+// While loop End
+
+// Array Start
+
+// Accessing array element.
+let colors = [`red`, `green`, `blue`];
+console.log(colors);
+console.log(colors[0]);
+
+// Changing an array element
+let colors = [`red`, `green`, `blue`];
+
+let change = (colors[1] = `orange`);
+console.log(change);
+
+// Array Lenth
+let colors = [`red`, `green`, `blue`];
+
+console.log(colors.length);
+
+// Accessing the first array element.
+let colors = [`red`, `green`, `blue`];
+
+console.log(colors[0]);
+
+// Accessing the last array element.
+let colors = [`red`, `green`, `blue`];
+
+console.log(colors[colors.length - 1]);
+
+// popping and pushing
+let colors = [`red`, `green`, `blue`];
+
+console.log(colors.pop());
+console.log(colors.push(`teal`));
+
+// Deleting Elements.
+let colors = [`red`, `green`, `blue`];
+delete colors[1]
+console.log(colors);
+
+// Merging Array 
+let colors1 = [`red`, `green`, `blue`];
+let colors2 = [`teal`, `aqua`, `white`];
+let newColor = colors1.concat(colors2)
+console.log(newColor);
+
+
+// Slicing array
+let colors = [`red`, `green`, `blue`];
+let slice = colors.slice(2)
+console.log(slice);
+
+// Short array
+let colors = [`red`, `green`, `blue`];
+colors.sort()
+console.log(colors);
+
+// Short array
+let colors = [`red`, `green`, `blue`];
+colors.reverse()
+console.log(colors);
+// Array End
 */
