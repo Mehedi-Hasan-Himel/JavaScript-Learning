@@ -143,5 +143,56 @@ console.log(typeof himel);
    console.log(x);
    
 */
-
 // Assignment Operator End
+
+// Comparison Operator Start
+
+// == equal to
+/*
+let x = 10;
+console.log(x == 10);
+*/
+
+// === equal value and equal type
+/* 
+let x = 10;
+console.log(x === 10);
+*/
+
+// != not equal
+/* 
+let x = 10;
+console.log(x != 10);
+*/
+
+// !== not equal value and not equal type
+/* 
+let x = 10;
+console.log(x !== 10);
+*/
+
+// > greater than
+/* 
+let x = 10;
+console.log(x > 10);
+*/
+
+// < less than
+/* 
+let x = 10;
+console.log(x < 10);
+*/
+
+// >= greater than or equal
+/* 
+let x = 10;
+console.log(x >= 10);
+*/
+
+// <= less than or equal
+/* 
+let x = 10;
+console.log(x <= 10);
+*/
+
+// Comparison Operator End
