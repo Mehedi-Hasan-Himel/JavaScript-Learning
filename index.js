@@ -361,3 +361,24 @@ colors.reverse()
 console.log(colors);
 // Array End
 */
+
+let choukirTola = [
+  `tShirt`,
+  `jeans`,
+  `juta`,
+  `boi`,
+  `gamcha`,
+  `charger`,
+  `panjabi`,
+];
+
+for (let i = 0; i < choukirTola.length; i++){
+  let jinish = choukirTola[i];
+  if (jinish  == `charger`) {
+    console.log(`Charger Paici`);
+    console.log(choukirTola.indexOf(`charger`));
+    console.log(choukirTola.indexOf(`balish`));
+
+  }
+}
+
