@@ -400,4 +400,48 @@ for (let index = 0; index < vortas.length; index++) {
     console.log(vortas.indexOf(shutkiVorta));
   }
 }
+
+class Bus {
+  constructor(driver, wheels, seats) {
+    this.driver = driver;
+    this.wheels = wheels;
+    this.seats = seats;
+  }
+}
+
+class Truck {
+  constructor(driver, wheels, capacity) {
+    this.driver = driver;
+    this.wheels = wheels;
+    this.capacity = capacity;
+  }
+}
 */
+
+class Vehicles {
+  constructor(driver, wheels) {
+    this.driver = driver;
+    this.wheels = wheels;
+  }
+}
+
+class Bus extends Vehicles{
+  constructor(driver, wheels, seats) {
+    super(driver, wheels);
+    this.seats = seats;
+  }
+}
+
+let hanifBus = new Bus(`Hanif Miah`, 6, 50);
+
+console.log(hanifBus);
+
+class Truck extends Vehicles{
+  constructor(driver, wheels, capacity) {
+    super(driver, wheels); 
+    this.capacity = capacity + ` Ton`;
+  }
+}
+
+let saPoribohon = new Truck(`Kuba Samsu`, 14, 40)
+console.log(saPoribohon);
