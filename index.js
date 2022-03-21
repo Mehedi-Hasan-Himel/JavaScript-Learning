@@ -361,7 +361,7 @@ colors.reverse()
 console.log(colors);
 // Array End
 */
-
+/*
 let choukirTola = [
   `tShirt`,
   `jeans`,
@@ -382,3 +382,22 @@ for (let i = 0; i < choukirTola.length; i++){
   }
 }
 
+
+// কোন খাবারের হোটেলে কি কি ভর্তা আছে, সেঁটা vortas নামক array এর মধ্যে লিখ । তারপর সেই array এর মধ্যে sutki ভর্তা (shutkiVorta) কোন পজিশনে আছে , সেটা indexOf ব্যবহার করে বল ।
+
+let vortas = [
+  `aluVorta`,
+  `begunVorta`,
+  `chingriVorta`,
+  `shutkiVorta`,
+  `dimVorta`,
+  `dalVorta`,
+];
+
+for (let index = 0; index < vortas.length; index++) {
+  let shutkiVorta = vortas[index];
+  if (shutkiVorta == `shutkiVorta`) {
+    console.log(vortas.indexOf(shutkiVorta));
+  }
+}
+*/
