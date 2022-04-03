@@ -26,3 +26,11 @@ while (number <= 20) {
 */
 
 // While Loop End
+
+
+// For Loop Start
+for (let rostGiven = 1; rostGiven < 7; rostGiven++) {
+   console.log(rostGiven);
+   console.log(`Roast Den, Please. `);
+}
+// For Loop End
