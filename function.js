@@ -74,6 +74,13 @@ function subtraction(number1, number2) {
 let biyogFol = subtraction(50, 20);
 console.log(biyogFol);
 
-*/
 
 // division 2 numbers
+function division(number1, number2) {
+  let divided = number1 / number2;
+  return divided;
+}
+
+let result = division(40, 5);
+console.log(result);
+*/
