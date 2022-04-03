@@ -47,7 +47,6 @@ function bringSingara(taka) {
 
 let singara = bringSingara(500);
 console.log(singara);
-*/
 
 function addTwoNumbers(number1, number2) {
   // console.log(number1, number2);
@@ -58,3 +57,13 @@ function addTwoNumbers(number1, number2) {
 let numbers = addTwoNumbers(35, 40);
 
 console.log(numbers);
+
+function multiplyTwoNumbers(num1,num2) {
+  let result = num1 * num2;
+  return result;
+}
+
+let total = multiplyTwoNumbers(5,100)
+console.log(total);
+*/
+
