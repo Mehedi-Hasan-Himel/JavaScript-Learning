@@ -416,7 +416,6 @@ class Truck {
     this.capacity = capacity;
   }
 }
-*/
 
 class Vehicles {
   constructor(driver, wheels) {
@@ -445,3 +444,5 @@ class Truck extends Vehicles{
 
 let saPoribohon = new Truck(`Kuba Samsu`, 14, 40)
 console.log(saPoribohon);
+*/
+
