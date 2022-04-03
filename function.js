@@ -65,5 +65,15 @@ function multiplyTwoNumbers(num1,num2) {
 
 let total = multiplyTwoNumbers(5,100)
 console.log(total);
+
+// subtraction 2 numbers
+function subtraction(number1, number2) {
+  let result = number1 - number2;
+  return result;
+}
+let biyogFol = subtraction(50, 20);
+console.log(biyogFol);
+
 */
 
+// division 2 numbers
