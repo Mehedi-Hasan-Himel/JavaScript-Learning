@@ -6,3 +6,11 @@ for (let i = 0; i < numbers.length; i++) {
 }
 */
 
+let bookList = [`positioning`, `hoked`, `start with why`, `Shoe Dog`]
+let ShoeDogIndex = bookList.indexOf(`Shoe Dog`);
+bookList[1] = `Story Brand`
+bookList.push(`Small Giant`)
+bookList.pop()
+
+
+console.log(bookList);
