@@ -14,9 +14,9 @@ for (let index = 0; index <= 20; index++) {
     break;
   }
 }
-*/
 
 let numbers = [44, 33, 22, 11, 55, 66, 7, 88, 77, 8, 99, 89];
+
 for (let i = 0; i < numbers.length; i++) {
   let number = numbers[i];
   console.log(number);
@@ -24,3 +24,15 @@ for (let i = 0; i < numbers.length; i++) {
     break;
   }
 }
+
+let numbers = [44, 33, 22, 11, 55, 66, 7, 88, 77, 8, 99, 89];
+
+for (let i = 0; i < numbers.length; i++) {
+  let number = numbers[i];
+  if (number > 60) {
+    continue;
+  }
+  console.log(number);
+}
+*/
+
