@@ -20,7 +20,6 @@ let book = {
   pages: 246,
   publisher: `penguin`,
 };
-*/
 
 let computer = {
   price: 80000,
@@ -31,3 +30,4 @@ let computer = {
 let storageProperty = `storage`;
 computer[storageProperty]=`512 GB `
 console.log(computer);
+*/
