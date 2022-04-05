@@ -37,10 +37,7 @@ switch (color) {
   default:
     console.log(`Color is blank`);
 }
-*/
 
-//  home work
-// 4- simple interest.
 
 // 3- grade calculate
 
@@ -70,3 +67,5 @@ switch (!!mark) {
   default:
     console.log("no data");
 }
+*/
+
