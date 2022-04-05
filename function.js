@@ -83,13 +83,7 @@ function division(number1, number2) {
 
 let result = division(40, 5);
 console.log(result);
-*/
 
-//  home work
-// 1- Celsius to fahrenheit .
-// 2- fahrenheit to Celsius  .
-// 3- grade calculate
-// 4- simple interest.
 
 // 1- Celsius to fahrenheit .
 function celsiusToFahrenheit(celsius) {
@@ -98,4 +92,18 @@ function celsiusToFahrenheit(celsius) {
 }
 
 let temperature = celsiusToFahrenheit(31);
+console.log(temperature);
+*/
+
+//  home work
+// 3- grade calculate
+// 4- simple interest.
+
+// 2- fahrenheit to Celsius  .
+function fahrenheitToCelsius(fahrenheit) {
+  let fahrenheitConvertCelsius = (fahrenheit - 32) * (5 / 9);
+  return fahrenheitConvertCelsius;
+}
+
+let temperature = fahrenheitToCelsius(87.8);
 console.log(temperature);
