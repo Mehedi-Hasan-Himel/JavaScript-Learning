@@ -32,4 +32,18 @@ function factorial(number) {
 
 let myNumberFact = factorial(20);
 console.log(myNumberFact);
+
+function getFactorial(number) {
+  let factorial = 1;
+  let i = 1;
+  while (i <= number) {
+    factorial *= i;
+    i++;
+  }
+  return factorial;
+}
+
+const myFactorial = getFactorial(5);
+console.log(myFactorial);
 */
+
