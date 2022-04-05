@@ -47,3 +47,11 @@ const myFactorial = getFactorial(5);
 console.log(myFactorial);
 */
 
+function getFactorial(number) {
+  let factorial = 1;
+  let i = 1;
+  while (i >= 1) {
+    factorial *= i;
+    i--;
+  }
+}
