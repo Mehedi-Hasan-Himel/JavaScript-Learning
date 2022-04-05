@@ -45,7 +45,6 @@ function getFactorial(number) {
 
 const myFactorial = getFactorial(5);
 console.log(myFactorial);
-*/
 
 function getFactorial(number) {
   let factorial = 1;
@@ -55,3 +54,15 @@ function getFactorial(number) {
     i--;
   }
 }
+
+function factorial(n) {
+  if (n == 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+const myFactorial = factorial(1);
+console.log(myFactorial);
+
+*/
