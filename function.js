@@ -93,11 +93,7 @@ function celsiusToFahrenheit(celsius) {
 
 let temperature = celsiusToFahrenheit(31);
 console.log(temperature);
-*/
 
-//  home work
-// 3- grade calculate
-// 4- simple interest.
 
 // 2- fahrenheit to Celsius  .
 function fahrenheitToCelsius(fahrenheit) {
@@ -107,3 +103,5 @@ function fahrenheitToCelsius(fahrenheit) {
 
 let temperature = fahrenheitToCelsius(87.8);
 console.log(temperature);
+*/
+

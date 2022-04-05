@@ -38,3 +38,35 @@ switch (color) {
     console.log(`Color is blank`);
 }
 */
+
+//  home work
+// 4- simple interest.
+
+// 3- grade calculate
+
+let mark = 55;
+switch (!!mark) {
+  case mark >= 80 && 100 >= mark:
+    console.log(`A+`);
+    break;
+  case mark >= 70 && 79 >= mark:
+    console.log(`A`);
+    break;
+  case mark >= 60 && 69 >= mark:
+    console.log(`A-`);
+    break;
+  case mark >= 50 && 59 >= mark:
+    console.log(`B`);
+    break;
+  case mark >= 40 && 49 >= mark:
+    console.log(`C`);
+    break;
+  case mark >= 33 && 39 >= mark:
+    console.log(`D`);
+    break;
+  case mark < 33:
+    console.log(`F`);
+    break;
+  default:
+    console.log("no data");
+}
