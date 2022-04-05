@@ -26,3 +26,18 @@ const army = 600;
 let max = Math.max(business, minister, army);
 console.log(`Largest is`, max);
 */
+
+/*
+// function
+
+function findLargest(first, second) {
+  if (first > second) {
+    return first;
+  } else {
+    return second;
+  }
+}
+
+let large = findLargest(1400, 700);
+console.log(large);
+*/

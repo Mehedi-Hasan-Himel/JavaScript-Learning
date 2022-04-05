@@ -105,3 +105,18 @@ let temperature = fahrenheitToCelsius(87.8);
 console.log(temperature);
 */
 
+// Task-2 , write a function to find the smallest  of three numbers.
+
+// Task-1 , write a function to find the biggest of three numbers.
+function biggestNumber(number1, number2, number3) {
+  if (number1 > number2 && number1 > number3) {
+    return number1;
+  } else if (number2 > number1 && number2 > number3) {
+    return number2;
+  } else {
+    return number3;
+  }
+}
+
+let big = biggestNumber(200, 59, 7);
+console.log(big);
