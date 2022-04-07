@@ -119,7 +119,6 @@ function biggestNumber(number1, number2, number3) {
 let big = biggestNumber(200, 59, 7);
 console.log(big);
 
-*/
 // Task-2 , write a function to find the smallest  of three numbers.
 
 function smallestNumber(number1, number2, number3) {
@@ -134,3 +133,4 @@ function smallestNumber(number1, number2, number3) {
 
 let small = smallestNumber(11, 3, 7);
 console.log(small);
+*/

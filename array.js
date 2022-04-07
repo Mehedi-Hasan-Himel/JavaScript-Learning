@@ -26,4 +26,50 @@ if (phones.indexOf(`OPPO`) == -1) {
 if (phones.indexOf(`LG`) != -1) {
   console.log(`LG is available now. `);
 }
+
+let numbers = [44, 33, 666, 777, 88, 99, 109];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  const element = numbers[i];
+  sum = sum + element;
+  console.log(sum);
+}
+
+
+// array এর সব element যোগ করার function.
+
+
+let numbers = [44, 33, 666, 777, 88, 99, 109];
+
+function arrayTotal(numbers) {
+  let sum = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    sum = sum + element;
+  }
+  return sum;
+}
+
+let add = arrayTotal(numbers)
+console.log(add);
 */
+
+// Find the "Largest Element" from an array.
+
+function largestElement(numbers) {
+  let largest = 0;
+  for (let index = 0; index < numbers.length; index++) {
+    const element = numbers[index];
+    if (element>largest) {
+      largest = element;
+    }
+  }
+  return largest;
+}
+
+let ages = [12, 504, 92, 34, 75, 32, 12];
+let oldest = largestElement(ages);
+console.log(oldest);
+
