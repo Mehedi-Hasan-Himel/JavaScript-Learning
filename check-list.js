@@ -23,9 +23,27 @@ const PI = 3.1416;
 console.log(PI);
 /*
 A variable which is declared by 'const' , can not change it's value after declare time. 
-*/ 
+*/
 
 // 4. Simple Math operation(+, -, *, /, %)
+let number1 = 5;
+let number2 = 7;
+
+let add = number1 + number2;
+console.log(add);
+
+let sub = number1 - number2;
+console.log(sub);
+
+let multiple = number1 * number2;
+console.log(multiple);
+
+let div = number1 / number2;
+console.log(div);
+
+let mud = number2 % number1;
+console.log(mud);
+
 
 // 5. Comparison (<, >, ===, <=, >=, =!)
 
