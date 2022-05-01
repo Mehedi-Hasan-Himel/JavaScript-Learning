@@ -45,7 +45,28 @@ let mud = number2 % number1;
 console.log(mud);
 
 
-// 5. Comparison (<, >, ===, <=, >=, =!)
+// 5. Comparison (<, >, ===, <=, >=, !=)
+
+let a = 6;
+let b = 8;
+
+let lessThan = a < b;
+console.log(lessThan);
+
+let gaterThan = a > b;
+console.log(gaterThan);
+
+let equal = a === b;
+console.log(equal);
+
+let lessThanOrEqual = a <= b;
+console.log(lessThanOrEqual);
+
+let gaterThanOrEqual = a >= b;
+console.log(gaterThanOrEqual);
+
+let notEqual = a != b;
+console.log(notEqual);
 
 // 6. Two condition. Case 1: Fulfill both condition. Case 2: Fulfill at list one condition. 
 
