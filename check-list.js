@@ -1,8 +1,17 @@
 // 1. Comment In Js.
 
+// Single line comment
+/*
+Multiline comment. 
+*/
+
 // 2. Write 3 variables. (Number , String , Boolean)
+let number = 5;
+let sentence = `This is a pen.`;
+let isTrue = true;
 
 // 3. 2 variables using . (let, Const)
+
 
 // 4. Simple Math operation(+, -, *, /, %)
 
