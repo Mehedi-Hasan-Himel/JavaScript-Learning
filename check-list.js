@@ -70,6 +70,21 @@ console.log(notEqual);
 
 // 6. Two condition. Case 1: Fulfill both condition. Case 2: Fulfill at list one condition. 
 
+let num1 = 2, num2 = 13 , num3 = 5;
+
+if (num1 > 5 && num1 < 10) {
+   console.log(`The number is between 6 to 9`);
+   
+} else if(num1 >= 5 || num1 <= 10){
+      console.log(`The number is between 5 to 10`);
+}
+
+
+// a = 5 , b = 7 c = ? 
+// case-1: && 
+// case-2: ||  
+
+
 // 7. if-else.
 
 // 8. While loop to display 7 to 19 all numbers. only display odd numbers between 7 to 19 .
@@ -81,3 +96,7 @@ console.log(notEqual);
 // 11. Your have an array of numbers. Display only the bigger then 80. 
 
 // 12. Write a function that takes 3 numbers and returns  the multiplications of the 3 numbers 
+
+
+
+
