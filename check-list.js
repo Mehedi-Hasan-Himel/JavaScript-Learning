@@ -119,7 +119,7 @@ while (number71 <= 19) {
 // 8. Declare an array. Number an element. 4th position update or change. add or remove elements. Check whether specific value exists in the array.
 
 // Declare an array.
-let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // Number an element.
 /*
@@ -149,8 +149,13 @@ if (numbers.indexOf(007) !== -1) {
 } else {
   console.log(`There isn't the number`);
 }
-*/ 
+*/
 // 9. use any for loop to display every elements of an array
+let numbers = [1, 4, 5, 2, 3, 8, 77, 66, 44, 7];
+for (let i = 0; i < numbers.length; i++) {
+  let elements = numbers[i];
+  console.log(elements);
+}
 
 // 10. Your have an array of numbers. Display only the bigger then 80.
 
