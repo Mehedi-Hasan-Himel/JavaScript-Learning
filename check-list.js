@@ -103,6 +103,11 @@ while (number71 <= 19) {
     console.log(increase);
   }
 }
+*/
+
+// only display even numbers between 7 to 19 .
+
+/*
 let number71 = 7;
 while (number71 <= 19) {
   let increase = number71++;
@@ -110,8 +115,7 @@ while (number71 <= 19) {
     console.log(increase);
   }
 }
-*/ 
-
+*/
 // 8. Declare an array. Number an element. 4th position update or change. add or remove elements. Check whether specific value exists in the array.
 
 // 9. use any for loop to display every elements of an array
