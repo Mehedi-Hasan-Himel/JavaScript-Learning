@@ -133,7 +133,7 @@ let element4 = numbers;
 element4[4] = 100;
 console.log(numbers);
 */
-//  add or remove elements. 
+//  add or remove elements.
 /*
 let remove = numbers.pop()
 console.log(numbers);
@@ -151,12 +151,51 @@ if (numbers.indexOf(007) !== -1) {
 }
 */
 // 9. use any for loop to display every elements of an array
+/*
 let numbers = [1, 4, 5, 2, 3, 8, 77, 66, 44, 7];
 for (let i = 0; i < numbers.length; i++) {
   let elements = numbers[i];
   console.log(elements);
 }
-
+*/
 // 10. Your have an array of numbers. Display only the bigger then 80.
+/*
+// Formula 01
+
+const arr = [1, 2, 3, 4, 5, 66, 77, 888, 99, 0998, 4455, 666];
+finalArray = [];
+
+arr.map((item) => {
+  if (item >= 80) {
+    finalArray.push(item);
+  }
+});
+
+console.log(finalArray);
+
+// Formula 02
+const array = [1, 80, 2, 85, 100, 10,44,66,44,4,6,6,7777,5554,444];
+
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+  if (element > 80) {
+    console.log(element);
+  }
+  
+}
+*/
 
 // 11. Write a function that takes 3 numbers and returns  the multiplications of the 3 numbers
+
+/*
+function multi(number1, number2, number3) {
+  let multiple = number1 * number2 * number3;
+  return multiple;
+}
+
+let result = multi(3, 4, 5);
+
+console.log(result);
+
+*/
+
