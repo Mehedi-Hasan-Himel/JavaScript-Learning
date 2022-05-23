@@ -22,4 +22,22 @@ function fibonacciSeries(num) {
 const fiboSeries = fibonacciSeries(3);
 console.log(fiboSeries);
 
+// [0,1,1,2,3,5,8,13]
+const fibo = [0, 1];
+for (let i = 2; i <= 10; i++) {
+  fibo[i] = fibo[i - 1] + fibo[i - 2];
+}
+
+console.log(fibo);
 */
+
+function fibo(i) {
+  if (i == 0) {
+    return 0;
+  } else if (i == 1) {
+    return 1;
+  }
+  return fibo(i - 1) + fibo(i - 2);
+}
+
+console.log(fibo(6));
