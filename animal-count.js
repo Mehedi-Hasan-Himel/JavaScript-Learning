@@ -28,16 +28,15 @@ function animalCount(miles) {
 
     const restMiles = miles - 20;
 
-    const animalDensityRestMiles = restMiles * 100;
-
     const restDenseAnimals = restMiles * animalDensityRestMiles;
 
     const totalAnimals =
       firstDenseAnimals + secondDenseAnimals + restDenseAnimals;
+
     return totalAnimals;
   }
 }
 
-const animals = animalCount(25);
+const animals = animalCount(35);
 
 console.log(animals);
