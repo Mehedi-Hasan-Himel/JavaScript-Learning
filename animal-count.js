@@ -7,6 +7,7 @@
 function animalCount(miles) {
   const animalDensityFirst10Miles = 10;
   const animalDensitySecond10Miles = 50;
+  const animalDensityRestMiles = 100;
   if (miles <= 10) {
     const Count = miles * animalDensityFirst10Miles;
     return Count;
@@ -29,10 +30,10 @@ function animalCount(miles) {
 
     const animalDensityRestMiles = restMiles * 100;
 
-    const RestDenseAnimals = restMiles * animalDensityRestMiles;
+    const restDenseAnimals = restMiles * animalDensityRestMiles;
 
     const totalAnimals =
-      firstDenseAnimals + secondDenseAnimals + RestDenseAnimals;
+      firstDenseAnimals + secondDenseAnimals + restDenseAnimals;
     return totalAnimals;
   }
 }
