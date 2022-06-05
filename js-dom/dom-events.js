@@ -31,3 +31,10 @@ const hotPinkButton = document.getElementById("make-hotPink");
 hotPinkButton.addEventListener("click", function makePink() {
   document.body.style.backgroundColor = "hotpink";
 });
+
+// Direct shortcut.
+document
+  .getElementById("make-lightBlue")
+  .addEventListener("click", function () {
+    document.body.style.backgroundColor = "lightblue";
+  }); 
