@@ -14,3 +14,7 @@ function makeBlue() {
   document.body.style.backgroundColor = `Blue`;
 }
 
+const greenButton = document.getElementById("make-green-button");
+greenButton.onclick = function makeGreen() {
+  document.body.style.backgroundColor = "green";
+};
