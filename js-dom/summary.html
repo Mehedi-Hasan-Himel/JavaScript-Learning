@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Event Summary</title>
+</head>
+
+<body>
+   <h1 id="mouse-header">More Mouse Event</h1>
+   <input id="email-field" type="text" placeholder="Your Email Address">
+
+   <button onclick="handelClickGreen()">Click Me: Green</button>
+
+   <script>
+      function handelClickGreen() {
+         document.body.style.backgroundColor = 'green'
+      }
+
+      document.getElementById("email-field").addEventListener('keyup', function (event) {
+         console.log(event.target.value);
+      })
+
+      document.getElementById('mouse-header').addEventListener('mouseout',function(){
+         console.log('mouse is moving');
+      })
+   </script>
+</body>
+
+</html>
