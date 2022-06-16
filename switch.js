@@ -1,5 +1,3 @@
-/*
-
 let color = `yellow`;
 if (color == `blue`) {
   console.log(`Color is blue ! `);
@@ -15,6 +13,7 @@ if (color == `blue`) {
   console.log(`Color is blank`);
 }
 
+/*
 let color = `yellow`;
 
 switch (color) {
@@ -68,4 +67,3 @@ switch (!!mark) {
     console.log("no data");
 }
 */
-

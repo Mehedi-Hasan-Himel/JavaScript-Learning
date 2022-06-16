@@ -29,7 +29,6 @@ for (let i = 2; i <= 10; i++) {
 }
 
 console.log(fibo);
-*/
 
 function fibo(i) {
   if (i == 0) {
@@ -41,3 +40,5 @@ function fibo(i) {
 }
 
 console.log(fibo(6));
+
+*/
