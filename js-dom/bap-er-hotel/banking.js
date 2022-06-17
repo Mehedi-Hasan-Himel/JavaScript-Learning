@@ -4,11 +4,17 @@ document
   .addEventListener("click", function () {
     //   get the amount deposit
     const depositInput = document.getElementById("deposit-input");
-    const depositAmount = depositInput.value;
-    console.log(depositAmount);
+
+    const newDepositAmount = depositInput.value;
 
     const depositTotal = document.getElementById("deposit-total");
-    depositTotal.innerText = depositAmount;
+
+    const previousDepositAmount = depositTotal.innerText;
+
+    const newDepositTotal =
+      parseFloat(previousDepositAmount) + parseFloat(newDepositAmount);
+
+    depositTotal.innerText = newDepositTotal;
 
     // clear the deposit input
     depositInput.value = " ";
