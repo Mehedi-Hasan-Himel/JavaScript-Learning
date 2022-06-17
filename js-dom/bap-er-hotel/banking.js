@@ -5,16 +5,28 @@ document
     //   get the amount deposit
     const depositInput = document.getElementById("deposit-input");
 
-    const newDepositAmount = depositInput.value;
+    const newDepositAmountText = depositInput.value;
+    const newDepositAmount = parseFloat(newDepositAmountText);
 
+    //   Update Deposit total
     const depositTotal = document.getElementById("deposit-total");
 
-    const previousDepositAmount = depositTotal.innerText;
+    const previousDepositAmountText = depositTotal.innerText;
+    const previousDepositAmount = parseFloat(previousDepositAmountText);
 
-    const newDepositTotal =
-      parseFloat(previousDepositAmount) + parseFloat(newDepositAmount);
+    const newDepositTotal = previousDepositAmount + newDepositAmount;
 
     depositTotal.innerText = newDepositTotal;
+
+    //   Update account balance
+    const balanceTotal = document.getElementById("balance-total");
+    const balanceTotalText = balanceTotal.innerText;
+
+    const previousBalanceTotal = parseFloat(balanceTotalText);
+
+    const newBalanceTotal = previousBalanceTotal + newDepositAmount;
+
+    balanceTotal.innerText = newBalanceTotal;
 
     // clear the deposit input
     depositInput.value = " ";
