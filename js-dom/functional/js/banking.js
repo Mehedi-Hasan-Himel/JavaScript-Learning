@@ -1,4 +1,3 @@
-/* 
 function doubleIt(num) {
   const result = num * 2;
 
@@ -7,23 +6,22 @@ function doubleIt(num) {
 
 const first = doubleIt(5);
 const second = doubleIt(7);
-*/
 
-function getInputValue() {
-  const depositInput = document.getElementById("deposit-input");
-  const depositAmountText = depositInput.value;
-  const depositAmount = parseFloat(depositAmountText);
+function getInputValue(inputID) {
+  const inputField = document.getElementById(inputID);
+  const inputAmount = inputField.value;
+  const amountValue = parseFloat(inputAmount);
 
   //   clear input field
-  depositInput.value = "";
+  inputField.value = "";
 
-  return depositAmount;
+  return amountValue;
 }
 
 document
   .getElementById("deposit-button")
   .addEventListener("click", function () {
-    const depositAmount = getInputValue();
+    const amountValue = getInputValue("deposit-input");
 
     //   Get current deposit
     const depositTotal = document.getElementById("deposit-total");
@@ -32,7 +30,7 @@ document
 
     const previousDepositTotal = parseFloat(depositTotalText);
 
-    depositTotal.innerText = previousDepositTotal + depositAmount;
+    depositTotal.innerText = previousDepositTotal + amountValue;
 
     console.log(depositTotalText);
 
@@ -43,19 +41,14 @@ document
 
     const previousBalanceTotal = parseFloat(balanceTotalText);
 
-    balanceTotal.innerText = previousBalanceTotal + depositAmount;
+    balanceTotal.innerText = previousBalanceTotal + amountValue;
   });
 
 //   handle withdraw button
 document
   .getElementById("withdraw-button")
   .addEventListener("click", function () {
-    const withdrawInput = document.getElementById("withdraw-input");
-    const withdrawAmountText = withdrawInput.value;
-
-    const withdrawAmount = parseFloat(withdrawAmountText);
-
-    console.log(withdrawAmountText);
+    const withdrawAmount = getInputValue("withdraw-input");
 
     //   update withdraw total
 
@@ -73,7 +66,4 @@ document
     const previousBalanceTotal = parseFloat(balanceTotalText);
 
     balanceTotal.innerText = previousBalanceTotal - withdrawAmount;
-
-    //   clear withdraw input field
-    withdrawInput.value = "";
   });
