@@ -28,7 +28,7 @@ const company = {
     tech: {
       first: `HTML`,
       second: `CSS`,
-      third: `JS`,
+      third: `JavaScript`,
     },
   },
 };
@@ -40,3 +40,4 @@ const { work, framework } = company.web;
 const { food } = company.CEO;
 const { second, third } = company.web.tech;
 console.log(work, framework, food);
+
