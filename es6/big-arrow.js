@@ -26,9 +26,7 @@ const doMath = (x, y) => {
   return output;
 };
 
-const total = doMath(12, 5)
+const total = doMath(12, 5);
 console.log(total);
 
-document.getElementById("my-button").addEventListener(event => {
-   
-})
+document.getElementById("my-button").addEventListener((event) => {});
