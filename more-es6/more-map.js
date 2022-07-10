@@ -1,4 +1,4 @@
-// Map string array, array of objects map, foreach
+// Map string array, array of objects map, foreach. 
 
 const friends = [`Tom Haks`, `Tom Cruise`, `Tom Brady`, `Tom Solaiman`];
 
@@ -36,12 +36,12 @@ const products = [
 
 const productNames = products.map((product) => product.name);
 
-// console.log(productNames);
+console.log(productNames);
 
 const productPrices = products.map((product) => product.price);
 
-// console.log(productPrices);
+console.log(productPrices);
 
-// products.map((product) => console.log(product));
+products.map((product) => console.log(product));
 
-// products.forEach((product) => console.log(product));
+products.forEach((product) => console.log(product));
