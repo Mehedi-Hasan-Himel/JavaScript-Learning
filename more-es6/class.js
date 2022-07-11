@@ -1,3 +1,4 @@
+// Class, constructor, method, create object from class
 class Support {
   name;
   roll = `Support Web Dev`;
