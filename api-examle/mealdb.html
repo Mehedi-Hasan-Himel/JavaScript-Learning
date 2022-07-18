@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search your favorite food</title>
+
+   <!-- BootStrap Link Start -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <!-- BootStrap Link End -->
+
+</head>
+
+<body>
+
+   <h2 class="text-center text-success">Search your favorite food</h2>
+
+   <!-- Meal Search Area -->
+   <div class="input-group mb-3 w-50 mx-auto">
+      <input id="search-field" type="text" class="form-control" placeholder="Search the food you want"
+         aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button onclick="searchFood()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+   </div>
+
+   <!-- Meal Search Result Start-->
+   <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4 m-4 p-4">
+
+   </div>
+   <!-- Meal Search Result End-->
+
+   <!-- JavaScript Link Start -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+   <!-- <script src="./js/mealdb.js"></script> -->
+   <script src="./js/mealdbasync.js"></script>
+   <!-- JavaScript Link End -->
+</body>
+
+</html>
